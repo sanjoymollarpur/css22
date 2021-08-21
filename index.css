@@ -1,0 +1,95 @@
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.b1{
+    width: fit-content;
+    height: fit-content;
+    background-color:black;
+    color: aliceblue;
+}
+.b2
+{
+    
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    color: aliceblue;
+}
+.b3{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    color: aliceblue;
+  
+}
+.b{
+    border: 3px solid red;
+    padding: 7px;
+    margin: 6px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.manu{
+    padding: 9px;
+    font-size: 15px;
+    
+}
+.t2{
+    text-align: center;
+    padding: 6px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.md1{
+    background-color: blueviolet;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.md2{
+    background-color: rgb(182, 204, 182);
+    border: 4px dashed red;
+    width: 200px;
+    height: 300px;
+    
+}
+.mf{
+    padding: 10px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.mm{
+    background-color: black;
+    color: aliceblue;
+    width: 190px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid red;
+    margin-bottom: 50px;
+}
+.container3{
+    display: grid;
+    margin-top: 40px;
+    margin: auto;
+    
+    grid-template-columns: 30% 30% 30%;
+    place-items: center;
+    
+}
+.menu-box{
+    width: 250px;
+    height: 250px;
+}
